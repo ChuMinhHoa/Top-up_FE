@@ -238,4 +238,4 @@ input:focus{
 }
 
 
-@media (max-width:)
+@media only screen and(max-width:){}
