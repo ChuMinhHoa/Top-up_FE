@@ -10,11 +10,6 @@ h1{
     margin: 0px;
     text-align: center;
 }
-body{
-    background-image: url(/Img/200629.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 img {
     max-width: 100%;
     max-height: 100%;
@@ -24,13 +19,11 @@ img {
 .row{
     margin: 0px;
 }
-.fullscreen{
-    background-color:#005a4767;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-repeat: repeat;
+body{
+    background-image: url(/Img/200629.jpg);
+    background-size: cover;
 }
+
 .triagle-wrapper{
     width: 100%;
     height: 16vh;
@@ -75,7 +68,7 @@ img {
 }
 .login-wrapper{
     width: 100%;
-    margin-top: 100px;
+    padding-top: 60px;
 }
 .carousel{
     display: flex;
@@ -90,9 +83,6 @@ img {
 .carousel-item{
     width: 100%;
     height: 300px;
-}
-.login-div{
-    display: flex;
 }
 .carousel-inner{
     width: 100%;
@@ -237,5 +227,87 @@ input:focus{
     color: white;
 }
 
-
-@media only screen and(max-width:){}
+@media only screen and (min-width:576px){
+    .carousel{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .login-wrapper{
+        padding-top: 30px;
+    }
+    .triagle-wrapper{
+        height: 12vh;
+    }
+    .triagle2{
+        border-top-width:12vh;
+    }
+    .triagle{
+        border-top-width: 6vh;
+        border-bottom-width: 6vh;
+    }
+    .text-login h1{
+        font-size: 40px;
+    }
+    .retangle-login{
+        height:50px
+    }
+}
+@media only screen and (max-width:576px){
+    .carousel{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .login-wrapper{
+        padding-top: 30px;
+    }
+    .triagle-wrapper{
+        height: 10vh;
+    }
+    .triagle2{
+        border-top-width:10vh;
+    }
+    .triagle{
+        border-top-width: 5vh;
+        border-bottom-width: 5vh;
+    }
+    .text-login h1{
+        font-size: 30px;
+    }
+    .retangle-login{
+        height:70px
+    }
+    .input-infor:first-child{
+        margin-top:10px;
+    }
+    input{
+        font-size: 25px;
+    }
+    .button-submit{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width:768px){
+    .carousel{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .triagle-wrapper{
+        height: 18vh;
+    }
+    .triagle2{
+        border-top-width:16vh;
+    }
+    .triagle{
+        border-top-width: 8vh;
+        border-bottom-width: 8vh;
+    }
+    .text-login h1{
+        font-size: 45px;
+    }
+    .retangle-login{
+        height:70px
+    }
+}
