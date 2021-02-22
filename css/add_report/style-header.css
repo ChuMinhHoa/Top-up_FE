@@ -126,7 +126,7 @@ svg{
     line-height: 42px;
     color: #FFFFFF;
 }
-.submit-button,.submit-button-div span{
+.submit-button span {
     padding: 8px 10px;
     display: inline-block;
     background-color: #1DDDB4;
