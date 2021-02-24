@@ -70,7 +70,8 @@ span svg{
 }
 
 .hidden-submit-wrapper {
-    position: absolute;
+    background-color: green;
+    
 }
 
 .submit-wrapper span:hover{
@@ -107,6 +108,9 @@ span svg{
     outline: none;
     margin-left: 10px;
     border: 0px;
+}
+.text-addr{
+    
 }
 @media only screen and (max-width:	1140px){
     .triagle{
