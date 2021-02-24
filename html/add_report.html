@@ -9,6 +9,9 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../library/fontawesome-free-5.15.2-web/css/fontawesome.css">
+    <link rel="stylesheet" href="../library/fontawesome-free-5.15.2-web/css/brands.css">
+    <link rel="stylesheet" href="../library/fontawesome-free-5.15.2-web/css/solid.css">
     <link rel="stylesheet" href="/css/add_report/style-header.css">
     <link rel="stylesheet" href="/css/add_report/style-container.css">
     <link rel="stylesheet" href="/css/add_report/style-footer.css">
@@ -84,7 +87,22 @@
             </div>
             <form action="">
                 <div class="submit-wrapper">
-                    <span>
+                    <div class="hidden-submit-wrapper">
+                        <span>Title: <input type="text" required></span>
+                        <input type="file" name="fileUpload" id="fileUpload" class="inputFile">
+                        <label for="fileUpload">
+                            <span>
+                                File PDF <i class="fas fa-file-pdf"></i>
+                            </span>
+                        </label>
+                        <input type="file" name="fileImage" id="fileImage" class="inputFile">
+                        <label for="fileImage">
+                            <span>
+                                Image Cover <i class="fas fa-image"></i>
+                            </span>
+                        </label>
+                    </div>
+                    <span style="opacity: 0">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-file-earmark-plus-fill" viewBox="0 0 16 16">
                             <path
