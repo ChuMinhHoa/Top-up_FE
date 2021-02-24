@@ -70,8 +70,9 @@ span svg{
 }
 
 .hidden-submit-wrapper {
+    position: absolute;
     background-color: green;
-    
+    text-align: center;
 }
 
 .submit-wrapper span:hover{
