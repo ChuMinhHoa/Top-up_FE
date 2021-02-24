@@ -109,10 +109,14 @@ span svg{
     margin-left: 10px;
     border: 0px;
 }
-.text-addr h1{
+.text-addrp h1{
 
-    margin:0px
+    margin:0px;
 
+}
+.text-addrp hr{
+    margin-top: 0px;
+    border-top: 2px solid black;
 }
 @media only screen and (max-width:	1140px){
     .triagle{
