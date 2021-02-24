@@ -166,6 +166,20 @@ svg{
     justify-content: center;
     text-align: center;
 }
+.hide{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(129, 129, 129, 0.301);
+}
+.text-addrp{
+    width: 100%;
+}
+.input-title{
+    width: 100%;
+}
+.select-rp-button{
+    display: inline-block;
+}
 
 @media only screen and (max-width:1200px){
     .content-header{
