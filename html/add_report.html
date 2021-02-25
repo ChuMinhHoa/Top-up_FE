@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    
+
     <div class="header-wrap">
         <div class="header-color"></div>
         <div class="header">
@@ -90,28 +90,33 @@
             <form action="">
                 <div class="cover-hidden-submit-wrapper dp-none">
                     <div class="hidden-submit-wrapper" id="info-form">
-                        <div class="file-submission-text">
-                            <h3>ADD YOUR REPORT HERE</h3>
+                        <div class="flex-div">
+                            <div class="file-submission-text">
+                                <h3>ADD YOUR REPORT HERE</h3>
+                            </div>
                         </div>
-                        <div>
+                        <div class="input-title-wrapper">
                             <input type="text" name="fileTitle" id="fileTitle" placeholder="Type Title here..."
                                 required>
                         </div>
-                        <div>
+                        <div class="button-hide">
                             <label for="fileUpload" id="fileUploadLabel">
                                 <p>Choose a PDF file</p>
                             </label>
-                            <input type="file" name="fileUpload" id="fileUpload" class="inputfile"  accept=".pdf"  required>
+                            <input type="file" name="fileUpload" id="fileUpload" class="inputfile" accept=".pdf"
+                                required>
                         </div>
                         <div class="form-upload">
                             <label for="fileImage" id="fileImageLabel">
                                 <p>Choose a Image</p>
                             </label>
-                            <input type="file" name="fileImage" id="fileImage" class="inputfile img-inputfile"
-                                accept=".png, .jpeg, .jpg" required>
+                            <input type="file" name="fileImage" id="fileImage" class="inputfile img-inputfile" accept=".png, .jpeg, .jpg"
+                                required>
                             <div class="form-upload__preview"></div>
                         </div>
-                        <div class="submit-button-div"><span id="insert-form-submit">Submit</span></div>
+                        <div class="submit-button-div">
+                            <span id="insert-form-submit">Submit</span>
+                        </div>
                     </div>
                 </div>
                 <div class="submit-wrapper">

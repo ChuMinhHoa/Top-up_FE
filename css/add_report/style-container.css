@@ -1,3 +1,6 @@
+p{
+    margin: 0px;
+}
 .triagle {
     border: solid transparent;
     content: "";
@@ -19,6 +22,40 @@
     position: relative;
     display: inline-block;
     margin-bottom: 20px;
+}
+
+.flex-div, .input-title-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-title-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.input-title-wrapper input{
+    width: 80%;
+}
+
+
+.button-hide label:active, .form-upload label:active{
+    border-radius: 15px;
+    border:1px solid #1DDDB4;
+    box-shadow: 0 0 4px 2px #19ac8c;
+}
+.button-hide label, .form-upload label{
+    margin: 0px;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+.button-hide,.form-upload label{
+    background-color: #1DDDB4;
+    display: inline-block;
+    margin: 20px;
+    margin-left: 55px;
+    margin-bottom: 0px;
+    border-radius: 15px;
 }
 
 .file-submission-text h3 {
@@ -82,7 +119,7 @@ span svg {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(255,0,0,0.1);
+    background-color: rgba(56, 56, 56, 0.815);
 }
 
 .hidden-submit-wrapper {
@@ -128,12 +165,14 @@ span svg {
 .inputfile:focus+label, .inputfile+label:hover {
     background-color: red;
 }
-
 .form-upload__preview {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% + 15px);
     margin-left: -7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-upload__title {
@@ -188,6 +227,11 @@ span svg {
     padding-left: 20px;
 }
 
+.submit-button-div{
+    display: flex;
+    justify-content: center;
+}
+
 .submit-button-div input, .submit-button-div span {
     padding: 8px 10px;
     display: inline-block;
@@ -214,11 +258,6 @@ span svg {
 .dp-none {
     display: none;
 }
-
-@media only screen and (max-width: 1140px) {
-    .triagle {
-=======
->>>>>>> Stashed changes
 .text-addrp h1{
 
     margin:0px;
@@ -227,6 +266,19 @@ span svg {
 .text-addrp hr{
     margin-top: 0px;
     border-top: 2px solid black;
+}
+#submitFileTitle{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold
+}
+#submitFileUpload{
+    text-align: center;
+    font-size: 25px;
+}
+#submitFileImage{
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (max-width:	1140px){
     .triagle{
