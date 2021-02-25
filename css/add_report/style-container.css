@@ -112,13 +112,9 @@ span svg {
     opacity: 0;
     overflow: hidden;
     position: absolute;
-<<<<<<< HEAD
     z-index: -1;
-=======
-    background-color: green;
-    text-align: center;
->>>>>>> 2b95b5a83125aef81ff0f2fdf2fd7d912ba71de7
 }
+
 
 .inputfile+label {
     font-size: 1.25em;
@@ -154,10 +150,6 @@ span svg {
 
 .form-upload__control {
     position: absolute;
-<<<<<<< Updated upstream
-    background-color: green;
-    text-align: center;
-=======
     width: 0;
     height: 0;
 }
@@ -181,7 +173,6 @@ span svg {
     text-align: center;
     margin-top: 8px;
     font-size: 13px;
->>>>>>> Stashed changes
 }
 
 .submit-wrapper span:hover {
@@ -219,9 +210,6 @@ span svg {
     margin-left: 10px;
     border: 0px;
 }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 
 .dp-none {
     display: none;
@@ -242,7 +230,6 @@ span svg {
 }
 @media only screen and (max-width:	1140px){
     .triagle{
->>>>>>> 2b95b5a83125aef81ff0f2fdf2fd7d912ba71de7
         border-top-width: 60px;
         border-bottom-width: 60px;
     }
