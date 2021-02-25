@@ -1,4 +1,4 @@
-.triagle{
+.triagle {
     border: solid transparent;
     content: "";
     height: 0px;
@@ -9,20 +9,24 @@
     border-left-width: 98.9vw;
     border-left-color: #1DDDB4;
 }
-.submit-file-wrapper{
+
+.submit-file-wrapper {
     margin: 30px 0px;
     padding: 0 50px;
 }
-.file-submission-text{
+
+.file-submission-text {
     position: relative;
     display: inline-block;
     margin-bottom: 20px;
 }
-.file-submission-text h3{
+
+.file-submission-text h3 {
     margin: 0px;
     cursor: pointer;
 }
-.file-submission-text h3::after{
+
+.file-submission-text h3::after {
     content: "";
     width: 100%;
     height: 2px;
@@ -30,15 +34,17 @@
     left: 0;
     bottom: -1px;
     background-color: black;
-    transform:scale(1);
+    transform: scale(1);
     transition: transform 1s;
     transform-origin: left center;
 }
-.file-submission-text h3:hover::after{
+
+.file-submission-text h3:hover::after {
     transform: scale(0);
     transform-origin: right center;
 }
-.submit-wrapper{
+
+.submit-wrapper {
     border: 3px solid #B2B2B2;
     border-radius: 0 30px 0 30px;
     padding: 15px;
@@ -47,48 +53,151 @@
 
 .inputFile {
     width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
 }
 
-.submit-wrapper span{
+.submit-wrapper span {
     border: 2px solid #1DDDB4;
     padding: 10px;
     width: 200px;
     height: 200px;
     cursor: pointer;
-    position: relative;
 }
 
-span svg{
-    color:#1DDDB4;
+span svg {
+    color: #1DDDB4;
     width: 100%;
     height: 100%;
 }
 
-.hidden-submit-wrapper {
-    position: absolute;
-    background-color: green;
-    text-align: center;
+
+
+.cover-hidden-submit-wrapper {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255,0,0,0.1);
 }
 
-.submit-wrapper span:hover{
+.hidden-submit-wrapper {
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #1DDDB4;
+    box-shadow: 0px 0px 15px #1DDDB4;
+    border-radius: 15px;
+}
+
+.hidden-submit-wrapper input[type=text] {
+    border: none;
+    border-radius: 15px;
+    background-color: #E0DDDD;
+    font-size: 18px;
+    padding: 5px 25px;
+    outline: none;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+<<<<<<< HEAD
+    z-index: -1;
+=======
+    background-color: green;
+    text-align: center;
+>>>>>>> 2b95b5a83125aef81ff0f2fdf2fd7d912ba71de7
+}
+
+.inputfile+label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus+label, .inputfile+label:hover {
+    background-color: red;
+}
+
+.form-upload__preview {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 15px);
+    margin-left: -7.5px;
+}
+
+.form-upload__title {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 9px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ff80b1;
+    color: #ff257a;
+    font-weight: 600;
+    position: relative;
+}
+
+.form-upload__control {
+    position: absolute;
+<<<<<<< Updated upstream
+    background-color: green;
+    text-align: center;
+=======
+    width: 0;
+    height: 0;
+}
+
+.form-upload__item {
+    width: 150px;
+    margin: 0 7.5px;
+}
+
+.form-upload__item-thumbnail {
+    padding-top: 100%;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+}
+
+.form-upload__item-name {
+    word-break: break-all;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 13px;
+>>>>>>> Stashed changes
+}
+
+.submit-wrapper span:hover {
     border-color: #19ac8c;
 }
 
-.submit-wrapper span:hover svg{
+.submit-wrapper span:hover svg {
     color: #19ac8c;
 }
 
-.submit-button-wrapper{
+.submit-button-wrapper {
     display: flex;
     padding-left: 20px;
-} 
+}
 
-.submit-button-div input {
+.submit-button-div input, .submit-button-div span {
     padding: 8px 10px;
     display: inline-block;
     background-color: #1DDDB4;
@@ -99,9 +208,9 @@ span svg{
     outline: none;
 }
 
-.cancel-button input{
+.cancel-button input {
     padding: 8px 10px;
-    color:white;
+    color: white;
     display: inline-block;
     border-radius: 10px;
     cursor: pointer;
@@ -110,6 +219,18 @@ span svg{
     margin-left: 10px;
     border: 0px;
 }
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+
+.dp-none {
+    display: none;
+}
+
+@media only screen and (max-width: 1140px) {
+    .triagle {
+=======
+>>>>>>> Stashed changes
 .text-addrp h1{
 
     margin:0px;
@@ -121,42 +242,46 @@ span svg{
 }
 @media only screen and (max-width:	1140px){
     .triagle{
+>>>>>>> 2b95b5a83125aef81ff0f2fdf2fd7d912ba71de7
         border-top-width: 60px;
         border-bottom-width: 60px;
     }
-    .file-submission-text h3{
+    .file-submission-text h3 {
         font-size: 20px;
     }
-    .half-triagle{
+    .half-triagle {
         border-top-width: 60px;
     }
 }
-@media only screen and (max-width:	960px){
-    .triagle{
+
+@media only screen and (max-width: 960px) {
+    .triagle {
         border-top-width: 40px;
         border-bottom-width: 40px;
     }
-    .file-submission-text h3::after{
+    .file-submission-text h3::after {
         height: 1px;
     }
-    .half-triagle{
+    .half-triagle {
         border-top-width: 40px;
     }
 }
-@media only screen and (max-width:	720px){
-    .triagle{
+
+@media only screen and (max-width: 720px) {
+    .triagle {
         border-top-width: 30px;
         border-bottom-width: 30px;
     }
-    .file-submission-text h3{
+    .file-submission-text h3 {
         font-size: 15px;
     }
-    .half-triagle{
+    .half-triagle {
         border-top-width: 30px;
     }
 }
-@media only screen and (max-width:	540px){
-    .triagle{
+
+@media only screen and (max-width: 540px) {
+    .triagle {
         border-top-width: 30px;
         border-bottom-width: 30px;
     }
