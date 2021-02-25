@@ -187,7 +187,6 @@ a:hover{
 
 
 .half-triagle{
-    margin-top: 80px;
     border: solid transparent;
     content: "";
     height: 0px;
@@ -199,9 +198,10 @@ a:hover{
     border-left-color: #01011F;
 }
 .footer{
-    position: relative;
     width: 100%;
+    position: absolute;
     bottom: 0px;
+    margin-top: 80px;
 }
 .footer-container{
     background-color: #01011F;
